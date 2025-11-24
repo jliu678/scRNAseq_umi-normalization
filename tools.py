@@ -9,11 +9,14 @@ from scipy.special import xlogy
 
 
 import sys
-sys.path.append('/tmp/FIt-SNE-master/')       ### ADAPT PATH TO FIt-SNE REPO AS NEEDED
+# sys.path.append('/tmp/FIt-SNE-master/')       ### ADAPT PATH TO FIt-SNE REPO AS NEEDED
+sys.path.append('./FIt-SNE/')
 from fast_tsne import fast_tsne
-sys.path.append('../../libs/glmpca-py/')      ### ADAPT PATH TO glmpca-py REPO AS NEEDED
+# sys.path.append('../../libs/glmpca-py/')      ### ADAPT PATH TO glmpca-py REPO AS NEEDED
+sys.path.append('./glmpca-py/')
 from glmpca import glmpca
-sys.path.append('../../libs/rna-seq-tsne/')   ### ADAPT PATH TO rna-seq-tsne REPO AS NEEDED
+# sys.path.append('../../libs/rna-seq-tsne/')   ### ADAPT PATH TO rna-seq-tsne REPO AS NEEDED
+sys.path.append('./rna-seq-tsne/')
 import rnaseqTools
 
 
